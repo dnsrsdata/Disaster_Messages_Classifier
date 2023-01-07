@@ -43,11 +43,11 @@ def index():
     genre_names = list(genre_counts.index)
 
     df_unusual_occurrences = df.iloc[:, 2:].sum().sort_values()[:5]
-    ununsual_occurences_name = df_unusual_occurrences.index
+    ununsual_occurences_name = list(df_unusual_occurrences.index)
 
     df_common_occurrences = df.iloc[:, 2:].sum().sort_values(ascending=False)[:5]
-    df_common_occurrences_name = df_common_occurrences.index
-
+    df_common_occurrences_name = list(df_common_occurrences.index
+)
     # create visuals
 
     graphs = [
