@@ -31,7 +31,7 @@ def clean_data(df):
     """
 
     # Dropping the original column
-    df = df.drop(columns=['original', 'genre', 'id'])
+    df = df.drop(columns=['original', 'id'])
 
     # Separating column from dataframe
     categories = df.categories
