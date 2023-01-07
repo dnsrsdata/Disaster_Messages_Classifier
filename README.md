@@ -44,7 +44,7 @@ The idea for this project came from Udacity, where this is the second project pr
     |- disaster_categories.csv  # data to process 
     |- disaster_messages.csv  # data to process
     |- process_data.py
-    |- InsertDatabaseName.db   # database to save clean data to
+    |- DisasterResponse.db   # database to save clean data 
     |
     - models
     |- train_classifier.py
