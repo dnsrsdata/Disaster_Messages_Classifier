@@ -53,7 +53,7 @@ The idea for this project came from Udacity, where this is the second project pr
     - README.md
 
 ## Results
-You can check the result by accessing http://127.0.0.1:3000/ after following the installation steps
+You can check the result by accessing http://127.0.0.1:3000/ after following the installation steps.
 
 ## Licensing, Authors, Acknowledgements
 Must give credit to Appen for the data. Otherwise, feel free to use the code here as you would like!
