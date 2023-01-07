@@ -46,13 +46,13 @@ The idea for this project came from Udacity, where this is the second project pr
     |- process_data.py
     |- DisasterResponse.db   # database to save clean data 
     |
-    - notebooks
-    |- ETL_Playground.ipynb   # Notebook showing how the ETL was developed
-    |- ML_Playground.ipynb   # Notebook showing how the ML process was developed
-    |
     - models
     |- train_classifier.py
     |- classifier.pkl  # saved model 
+    |
+    - notebooks
+    |- ETL_Playground.ipynb   # Notebook showing how the ETL was developed
+    |- ML_Playground.ipynb   # Notebook showing how the ML process was developed
     |
     - README.md
 
